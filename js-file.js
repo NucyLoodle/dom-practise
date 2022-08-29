@@ -7,3 +7,9 @@ p.textContent = "Hey I'm red!";
 p.style.color = 'red';
 
 container.appendChild(p);
+
+const h3 = document.createElement('div');
+h3.classList.add('h3');
+h3.textContent = "I'm a blue h3!";
+h3.style.color = 'blue';
+container.appendChild(h3);
