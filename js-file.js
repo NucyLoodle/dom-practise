@@ -18,3 +18,8 @@ const newDiv = document.createElement('div');
 newDiv.classList.add('div');
 newDiv.style.cssText = 'border: 3px solid black; background: pink';
 container.appendChild(newDiv);
+
+const h1 = document.createElement('div');
+h1.classList.add('h1');
+h1.textContent = "I'm in a div";
+newDiv.appendChild(h1);
