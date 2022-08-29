@@ -28,3 +28,8 @@ const newP = document.createElement('div');
 newP.classList.add('newP');
 newP.textContent = "ME TOO!"
 newDiv.appendChild(newP);
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+  alert("Hello World");
+});
