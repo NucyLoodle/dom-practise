@@ -23,3 +23,8 @@ const h1 = document.createElement('div');
 h1.classList.add('h1');
 h1.textContent = "I'm in a div";
 newDiv.appendChild(h1);
+
+const newP = document.createElement('div');
+newP.classList.add('newP');
+newP.textContent = "ME TOO!"
+newDiv.appendChild(newP);
